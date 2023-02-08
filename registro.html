@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/form.css">
+</head>
+<body>
+    <div class="container-cabecera">
+        <header>
+            <a href="index.html"><h1>Gamer News</h1></a>
+        </header>
+
+        <div class="menu-cabecera">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Portada</li></a>
+                    <a href="seccion_nuevos_lanzamientos.html"><li>Nuevos Lanzamientos</li></a>
+                    <a href="seccion_reviews.html"><li>Reviews</li></a>
+                </ul>
+            </nav>
+
+            <img src="./imagenes/gamepadicon.png" alt="icono">
+            
+            <div class="control-sesion">
+                <a href="login.html">Inicia Sesión</a>
+                <a href="registro.html">Regístrate</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <h2>Registro</h2>
+        <div class="container-form">
+        <form>
+            <label>Nombre de Usuario:
+                <input type="text" name="UserName" placeholder="Nombre de usuario">
+            </label>
+
+            <label>Correo Electrónico: 
+                <input type="email" name="Email" placeholder="ejemplo@gmail.es">
+            </label>
+            
+            <label>Contraseña:          
+                <input type="password" name="Password">
+            </label>
+            
+            <label>Confirmar Contraseña: 
+                <input type="password" name="Password">
+            </label>
+
+            <label class="label-resaltada">Autorizo que se me manden e-mails de publicidad
+                <input type="checkbox" name="consentimiento" value="correoPublicidad">
+            </label>
+
+            <label class="label-resaltada">Autorizo que usen mis datos con fines comerciales
+                <input type="checkbox" name="consentimiento" value="usoDatos">
+            </label>
+
+            <fieldset>
+                <legend>Configuración de cookies</legend>
+                <label class="label-resaltada">
+                    <input type="radio" name="cookies" value="todas" checked>
+                    Acepto todas las cookies
+                </label>
+                <label class="label-resaltada">
+                    <input type="radio" name="cookies" value="necesarias">
+                    Acepto solo cookies recomendadas
+                </label>
+                <label class="label-resaltada">
+                    <input type="radio" name="cookies" value="ninguna">
+                    No acepto ninguna cookie
+                </label>
+            </fieldset>
+
+            <label for="opinion">Dinos tu opinión sobre nuestra web (opcional).</label>
+            <textarea name="opinion" id="opinion" cols="30" rows="10" maxlength="100" placeholder="Escribe aqui tu texto."></textarea>
+            
+
+            <input type="submit" name="confirm" value="Regístrame">
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Aviso Legal y Copyright 2023 &copy
+        </p>
+    </footer>
+</body>
