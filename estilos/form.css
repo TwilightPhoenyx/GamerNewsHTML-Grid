@@ -9,7 +9,7 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 50%;
-    background-color: rgb(19, 19, 19);
+    background-color: rgba(0,0,0,.57);
     border: solid;
     border-color: goldenrod;
     border-top-right-radius: 3rem;

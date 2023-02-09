@@ -7,13 +7,18 @@ body {
     grid-template-columns: 50rem 1fr 5rem 12rem;
 }
 
-
 header {
     grid-column: 1/5;
     grid-row: 1/2;
     align-self: center;
     padding: 0px;
     /*border:solid;*/
+}
+
+a {
+    text-decoration: none;
+    color:goldenrod;
+    display: contents;
 }
 
 nav {
@@ -75,37 +80,6 @@ aside {
     justify-content: space-evenly;
 }
 
-article {
-    border: solid;
-    border-color: goldenrod;
-    border-radius: 0.8rem;
-    padding: 1rem;
-    background-color: rgb(19, 19, 19);
-    margin: 1rem;
-    max-height: 100rem;
-}
-
-article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
-    color:goldenrod;
-    background-color: transparent;
-
-    margin-top: 0.1rem;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-footer > p {
-    font-family: serif;
-    border:solid;
-    border-width: 0.1rem;
-    text-align: center;
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-    background-color: rgb(19, 19, 19);
-    align-self: center;
-    padding: 2rem;
-}
-
 h1, h2 {
     text-align: center;
     text-transform: uppercase;
@@ -136,10 +110,35 @@ h3 {
     margin-top: 0.1rem;
 }
 
-a {
-    text-decoration: none;
+article {
+    border: solid;
+    border-color: goldenrod;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    /*background-color: rgb(19, 19, 19);*/
+    background-color: rgba(0,0,0,.57);
+    margin: 1rem;
+    max-height: 100rem;
+}
+
+article > h2 {      /*modificar estilo de h2 cuando es titular de articulo*/
     color:goldenrod;
-    display: contents;
+    background-color: transparent;
+    margin-top: 0.1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer > p {
+    font-family: serif;
+    border:solid;
+    border-width: 0.1rem;
+    text-align: center;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    background-color: rgb(19, 19, 19);
+    align-self: center;
+    padding: 2rem;
 }
 
 .icon-menu {
@@ -243,7 +242,7 @@ a {
 
 .comercial-ad > img {
     max-width: 90%;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 
 
