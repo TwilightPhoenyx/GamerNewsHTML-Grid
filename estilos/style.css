@@ -61,6 +61,7 @@ footer {
     grid-column: 1/5;
     grid-row: 5/6;
     display: grid;
+    margin-top: 3rem;
     /*border: solid;*/
 }
 
@@ -100,9 +101,9 @@ footer > p {
     text-align: center;
     margin-left: 0.8rem;
     margin-right: 0.8rem;
-    height: 5rem;
     background-color: rgb(19, 19, 19);
     align-self: center;
+    padding: 2rem;
 }
 
 h1, h2 {
@@ -125,8 +126,8 @@ h2 {
     font-size: 1.8rem;
     margin-top: 2rem;
     background-color: goldenrod;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 0.5rem;
 } 
 
@@ -208,6 +209,27 @@ a {
     height: fit-content;
     align-self: center;
     flex-grow: 1;
+}
+
+.notas {            /*notaciones pequeñas como pies de foto, fechas y autores*/
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.fuente {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.resumen {
+    font-size: 1rem;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.cuerpo {
+    font-size: 1.05rem;
 }
 
 .comercial-ad {
